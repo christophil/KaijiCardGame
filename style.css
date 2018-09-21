@@ -1,0 +1,99 @@
+body {
+
+	margin: 0;
+
+}
+
+#zoneDeJeu{
+
+	height: 100vh; /* For 100% screen height */
+    width:  100vw; /* For 100% screen width */
+	margin: auto;
+	text-align: center;
+}
+
+#zoneJoueurUn, #zoneJoueurDeux, #zoneNeutre{
+
+	height: 32vh; /* For 100% screen height */
+    width:  100vw; /* For 100% screen width */
+}
+
+#zoneJoueurDeux{
+
+	margin-bottom: 2vh;
+}
+
+#zoneNeutre{
+
+	margin-bottom: 2vh;
+}
+
+
+#zoneNeutre p{
+
+	display: inline-block;
+}
+
+img {
+
+	width: 22vh;
+	margin: 1vh;
+}
+
+#zoneJoueurUn img:hover, #carte_selectionnee_j1:hover{
+
+	border: 1px solid black;
+}
+
+#valider, #abandonner{
+
+	color: white;
+	background: black;
+	font-size: 1.3em;
+	padding: 1vh;
+	margin-top: -5px;
+
+}
+
+#valider:hover, #abandonner:hover{
+
+	color: black;
+	background: white;
+	border: black solid 1px;
+}
+
+#message_erreur, #message_informations, #message_resultat{
+
+
+	position: absolute;
+	top: 40vh;
+	left: 39vh;
+	width: 120vh;
+	font-size: 2em;
+	text-align: center;
+	color: white;
+	padding: 2vh;
+}
+
+#message_erreur{
+
+	background: red;
+}
+
+#message_informations{
+
+	background: black;
+}
+
+#message_resultat{
+
+	background: blue;
+}
+
+h3{
+
+	background: brown;
+	font-size: 1.8em;
+	color: white;
+	padding: 5px;
+}
